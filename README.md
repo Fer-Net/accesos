@@ -1,3 +1,7 @@
+
+# npm run deploy
+Para actualizar el proyecto en https://fer-net.github.io/accesos/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
