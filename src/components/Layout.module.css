@@ -1,0 +1,11 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Asegura que todo el contenido se ajuste a la pantalla */
+  }
+  
+  .mainContent {
+    padding-top: 64px; /* Esto es para dejar espacio debajo del AppBar */
+    flex-grow: 1; /* Asegura que el contenido ocupe el espacio restante */
+  }
+  

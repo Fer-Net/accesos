@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+// App.js
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Layout from "./components/Layout";  // Importa el layout
+import HomePage from "./pages/HomePage";  // Importa la página principal
+import Epidata from "./pages/Epidata";  // Importa la página principal
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          NATI TE AMO 
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        {/* Definimos el Layout para que esté en todas las rutas anidadas */}
+        <Route path="/" element={<Layout />}>
+          {/* Aquí renderizamos HomePage en el Outlet cuando estamos en la ruta raíz */}
+          <Route index element={<HomePage />} />  {/* Esta es la página de inicio */}
+          {/* Y también podemos renderizar HomePage en otras rutas */}
+          <Route path="accesos" element={<HomePage />} />
+          <Route path="epidata" element={<Epidata />} />
+
+        </Route>
+      </Routes>
+    </Router>
   );
-}
+};
 
 export default App;
