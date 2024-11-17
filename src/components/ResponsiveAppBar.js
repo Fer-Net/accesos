@@ -45,7 +45,7 @@ function ResponsiveAppBar() {
             variant="h6"
             noWrap
             component="a"
-            href="#app-bar-with-responsive-menu"
+            href="/accesos"
             sx={{
               mr: 2,
               display: { xs: 'none', md: 'flex' },
@@ -56,12 +56,12 @@ function ResponsiveAppBar() {
               textDecoration: 'none',
             }}
           >
-            LOGO
+            Accesos
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
-              size="large"
+              size="large" 
               aria-label="account of current user"
               aria-controls="menu-appbar"
               aria-haspopup="true"
@@ -106,7 +106,7 @@ function ResponsiveAppBar() {
             variant="h5"
             noWrap
             component="a"
-            href="#app-bar-with-responsive-menu"
+            href="/accesos" 
             sx={{
               mr: 2,
               display: { xs: 'flex', md: 'none' },
@@ -118,7 +118,7 @@ function ResponsiveAppBar() {
               textDecoration: 'none',
             }}
           >
-            LOGO
+            Accesos
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
