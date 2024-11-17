@@ -1,12 +1,12 @@
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    font-family: Arial, sans-serif;
-    background-color: #000e1c; /* Un fondo suave */
-    margin-top: 64px; /* Ajusta esta cantidad según la altura de tu AppBar */
-    padding: 20px;  /* Puedes agregar algo de padding para el contenido */
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centrado horizontal */
+  justify-content: flex-start; /* Alinea los elementos hacia la parte superior del contenedor */
+  height: 100vh;
+  width: 90%; /* 60% del ancho de la pantalla */
+  font-family: Arial, sans-serif;
+  background-color: #000e1c; /* Un fondo suave */
+  margin-top: 64px; /* Ajusta esta cantidad según la altura de tu AppBar */
+  padding: 20px; /* Espaciado adicional */
+}

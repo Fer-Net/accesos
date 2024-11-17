@@ -1,13 +1,25 @@
+/* Asegura que el html y body ocupen toda la altura de la pantalla */
+html, body {
+  height: 100%;
+  margin: 0; /* Elimina márgenes por defecto */
+}
+
+/* Layout contenedor */
 .layout {
-    display: flex;
-    flex-direction: column;
-    height: 100vh; /* Asegura que todo el contenido se ajuste a la pantalla */
-    background-color: #000e1c; /* Un fondo suave */
-  }
-  
-  .mainContent {
-    padding-top: 10px; /* Esto es para dejar espacio debajo del AppBar */
-    flex-grow: 1; /* Asegura que el contenido ocupe el espacio restante */
-  }
-  
-  
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Ahora toma toda la altura de la pantalla */
+  background-color: #000e1c; /* Fondo suave */
+  align-items: center; /* Centra horizontalmente todo el contenido dentro de layout */
+  justify-content: flex-start; /* El contenido se mantiene desde la parte superior */
+}
+
+/* Contenedor del contenido principal */
+.mainContent {
+  display: flex;
+  flex-direction: column; /* Asegura que los elementos se apilen verticalmente */
+  align-items: center; /* Centra el contenido de mainContent horizontalmente */
+  width: 80%; /* Ajusta el ancho del contenido (80% del contenedor) */
+  padding-top: 20px; /* Espacio debajo del AppBar (ajustable si es necesario) */
+  flex-grow: 1; /* Asegura que el contenido ocupe el espacio restante */
+}

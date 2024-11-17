@@ -1,8 +1,7 @@
-// Layout.js
 import React from "react";
-import ResponsiveAppBar from "../components/ResponsiveAppBar";  // Importa la barra de navegación
+import ResponsiveAppBar from "../components/ResponsiveAppBar";  // Barra de navegación
 import { Outlet } from "react-router-dom";  // Para renderizar las páginas aquí
-import styles from "./Layout.module.css";  // Si tienes estilos
+import styles from "./Layout.module.css";  // Importa los estilos
 
 const Layout = () => {
   return (
@@ -19,3 +18,4 @@ const Layout = () => {
 };
 
 export default Layout;
+
