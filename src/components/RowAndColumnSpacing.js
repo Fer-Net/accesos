@@ -14,10 +14,10 @@ const Item = styled(Paper)(({ theme }) => ({
 
 export default function RowAndColumnSpacing({ buttons }) {
   return (
-    <Box sx={{ width: '50%' }}>
+    <Box sx={{ width: '60%' }}>
       <Grid container rowSpacing={2} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
         {buttons.map((button, index) => (
-          <Grid item xs={6} key={index}>
+          <Grid item xs={4} key={index}>
             <Item>{button}</Item>
           </Grid>
         ))}
