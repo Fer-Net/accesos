@@ -4,46 +4,46 @@ import RowAndColumnSpacing from "../components/RowAndColumnSpacing";
 import styles from "./HomePage.module.css";
 import BasicTable from "../components/BasicTable";
 import cursos from '../components/cursos.json';
+import BasicTextFields from '../components/BasicTextFields';
 
 const Utn = () => {
   const [courses, setCourses] = useState([]);
-  const [urls, setUrls] = useState([]); // Estado para guardar las URLs
+  const [urls, setUrls] = useState([]); 
+  const [id, setId] = useState(''); 
 
-  // Función para manejar el clic en los botones
-  const handleClick = (url) => {
-    if (url.startsWith('/')) {
-      window.location.href = url;
-    } else {
-      window.open(url, "_blank");
+  const handleInputChange = (value) => {
+    setId(value); // Actualiza el estado del ID
+  };
+
+  const handleClickByID = (id) => {
+    if (!id || isNaN(Number(id))) {
+      alert('Por favor, ingresa un ID válido.');
+      return;
     }
+
+    const url = `https://www.elearning-total.com/campus/enrol/index.php?id=${id}`;
+    console.log('Abriendo URL:', url);
+    window.open(url, "_blank");
   };
 
-  const handleClickMultipleURLs = (urls) => {
-    console.log(urls);
-  
-    // Abrir cada URL en una nueva pestaña con un retraso para evitar bloqueos
-    urls.forEach((url, index) => {
-      setTimeout(() => {
-        window.open(url, "_blank");
-      }, index * 300); // Retraso de 300ms entre cada apertura
-    });
-  };
-  
-  
-
-  // Actualizar cursos y URLs al montar el componente
   useEffect(() => {
     setCourses(cursos);
 
-    // Filtrar cursos en curso y extraer las URLs de consultations
     const consultationsUrls = cursos
-      .filter(course => course.status === "en curso") // Filtrar por status
-      .map(course => course.consultations); // Extraer consultations
+      .filter(course => course.status === "en curso")
+      .map(course => course.consultations);
 
-    setUrls(consultationsUrls); // Guardar las URLs en el estado
-  }, []); // Se ejecuta solo al montar el componente
+    setUrls(consultationsUrls);
+  }, []);
 
-  // Datos de los botones
+  const handleClickMultipleURLs = (urls) => {
+    urls.forEach((url, index) => {
+      setTimeout(() => {
+        window.open(url, "_blank");
+      }, index * 300);
+    });
+  };
+
   const buttonData = [
     { text: "Totaldoc", variant: "contained", color: "secondary", url: "https://www.elearning-total.com/totaldoc/admin.php" },
     { text: "Web mail", variant: "contained", color: "secondary", url: "https://webmail.elearning-total.com/?_task=mail&_mbox=INBOX" },
@@ -51,8 +51,8 @@ const Utn = () => {
   ];
 
   const buttonList = [
-    ...buttonData.map(({ text, variant, color, url, onClick }) => (
-      <Button key={text} variant={variant} color={color} onClick={onClick || (() => handleClick(url))}>
+    ...buttonData.map(({ text, variant, color, url }) => (
+      <Button key={text} variant={variant} color={color} onClick={() => window.open(url, "_blank")}>
         {text}
       </Button>
     )),
@@ -69,7 +69,17 @@ const Utn = () => {
   return (
     <div className={styles.container}>
       <RowAndColumnSpacing buttons={buttonList} />
-      {/* Renderizando la tabla con los cursos */}
+      <div style={{ display: "flex", alignItems: "center", gap: "16px" }}>
+      <BasicTextFields onInputChange={handleInputChange} />
+      <Button
+        key="acceder"
+        variant="contained"
+        color="secondary"
+        onClick={() => handleClickByID(id)}
+      >
+        Acceder
+      </Button>
+    </div>
       <BasicTable courses={courses} />
     </div>
   );
