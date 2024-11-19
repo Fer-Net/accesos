@@ -67,7 +67,7 @@ export default function BasicTable({ courses }) {
                   color="secondary"
                   onClick={() => window.open(course.moodle, "_blank")}
                 >
-                  Moodle
+                  ver
                 </Button>
               </TableCell>
               <TableCell align="right">
@@ -76,7 +76,7 @@ export default function BasicTable({ courses }) {
                   color="secondary"
                   onClick={() => window.open(course.consultations, "_blank")}
                 >
-                  Consultas
+                  ver
                 </Button>
               </TableCell>
               <TableCell align="right">
@@ -85,7 +85,7 @@ export default function BasicTable({ courses }) {
                   color="secondary"
                   onClick={() => window.open(course.grades, "_blank")}
                 >
-                  Calificaciones
+                  ver
                 </Button>
               </TableCell>
               <TableCell align="right">
@@ -94,7 +94,7 @@ export default function BasicTable({ courses }) {
                   color="secondary"
                   onClick={() => window.open(course.exams, "_blank")}
                 >
-                  Examenes
+                  ver
                 </Button>
               </TableCell>
               <TableCell align="right">
@@ -103,7 +103,7 @@ export default function BasicTable({ courses }) {
                   color="secondary"
                   onClick={() => window.open(course.authorizations, "_blank")}
                 >
-                  Autorizaciones
+                  ver
                 </Button>
               </TableCell>
             </TableRow>
