@@ -3,6 +3,9 @@ import Button from "@mui/material/Button";
 import RowAndColumnSpacing from "../components/RowAndColumnSpacing";
 import styles from "./HomePage.module.css";
 import Calendar from "../components/Calendar"
+import gifImage from "../components/che.gif"; // Importa el archivo GIF
+import MovingGif from "../components/MovingGif"; // Asegúrate de que la ruta sea correcta
+import MovingGifStatic from "../components/MovingGifStatic"; // Asegúrate de que la ruta sea correcta
 
 
 
@@ -33,13 +36,22 @@ const HomePage = () => {
   return (
 
     <div className={styles.container}>
+
+
+
+
+
     {/* Fila de botones */}
     <RowAndColumnSpacing buttons={buttonList} />
+    {/* <MovingGif /> <MovingGifStatic src={gifImage} />*/ }
+    
 
     {/* Fila del calendario */}
     <div className="row justify-content-center" style={{ width: '100%' }}>
       <Calendar url="https://calendar.google.com/calendar/embed?height=800&wkst=1&ctz=America%2FArgentina%2FBuenos_Aires&showPrint=0&src=dG9ycmVzZmVybmFuZG9nYWJAZ21haWwuY29t&src=ZXMuYXIjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&src=ZmVybmFuZG90QGVwaWRhdGFjb25zdWx0aW5nLmNvbQ&color=%23039BE5&color=%234285F4&color=%23EF6C00" />
     </div>
+
+
   </div>
 
     
