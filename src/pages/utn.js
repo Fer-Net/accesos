@@ -5,6 +5,9 @@ import styles from "./HomePage.module.css";
 import BasicTable from "../components/BasicTable";
 import cursos from '../components/cursos.json';
 import BasicTextFields from '../components/BasicTextFields';
+import ModalFacturacion from '../components/modalFacturacion';
+
+
 
 const Utn = () => {
   const [courses, setCourses] = useState([]);
@@ -81,7 +84,12 @@ const Utn = () => {
       </Button>
     </div>
       <BasicTable courses={courses} />
+      <ModalFacturacion/>
+      
     </div>
+
+ 
+
   );
 };
 

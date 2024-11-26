@@ -6,6 +6,7 @@ import RowAndColumnSpacing from "../components/RowAndColumnSpacing";
 
 
 const Epidata = () => {
+
   const handleClick = (url) => {
     if (url.startsWith('/')) {
       window.location.href = url;
@@ -20,27 +21,17 @@ const Epidata = () => {
     { text: "Oodo", variant: "contained", color: "secondary", url: "https://epidata.odoo.com/es_AR/web/login" },
   ];
 
-
   const buttonList = buttonData.map(({ text, variant, color, url }) => (
     <Button key={text} variant={variant} color={color} onClick={() => handleClick(url)}>
       {text}
     </Button>
   ));
 
-
   return (
-
-    
     <div className={styles.container}>
       {/* Aquí se inserta el AppBar antes del contenido */}
-
- 
       <RowAndColumnSpacing buttons={buttonList} />
-
-
     </div>
-
-    
   );
 };
 
