@@ -45,6 +45,7 @@ const Utn = () => {
         window.open(url, "_blank");
       }, index * 300);
     });
+    window.open("https://www.elearning-total.com/campus/message/index.php", "_blank");
   };
 
   const buttonData = [
