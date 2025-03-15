@@ -14,7 +14,7 @@ import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import { Link } from "react-router-dom";  // Importa Link
 
-const pages = ['Epidata', 'Utn', 'Servicios'];  // Aquí tus páginas
+const pages = [ 'Utn', 'Servicios'];  // Aquí tus páginas
 const settings = ['Mi Perfil', 'Configuración', 'Cerrar Sesión'];  // Opciones del menú del usuario
 
 function ResponsiveAppBar() {
