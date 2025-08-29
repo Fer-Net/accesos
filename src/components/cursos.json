@@ -1,12 +1,12 @@
 [
   {
-    "name": "robotica educativa",
-    "id": 4567,
+    "name": "robotica",
+    "id": 4856 ,
     "start": "14/4",
     "end": "14/6",
     "status": "en curso",
-    "moodle": "https://www.elearning-total.com/campus/course/view.php?id=4567",
-    "consultations": "https://www.elearning-total.com/campus/mod/forum/view.php?id=459304",
+    "moodle": "https://www.elearning-total.com/campus/course/view.php?id=4856",
+    "consultations": "https://www.elearning-total.com/campus/mod/forum/view.php?id=482778",
     "grades": "https://www.elearning-total.com/campus/grade/report/grader/index.php?id=4567",
     "exams": "https://www.elearning-total.com/campus/grade/edit/tree/index.php?id=4567",
     "authorizations": ""
@@ -14,34 +14,88 @@
   ,
   {
     "name": "KIDS",
-    "id": 4455,
+    "id": 4813,  
     "start": "31/3",
     "end": "07/06",
     "status": "en curso",
-    "moodle": "https://www.elearning-total.com/campus/course/view.php?id=4455",
-    "consultations": "https://www.elearning-total.com/campus/mod/forum/view.php?id=450611",
-    "grades": "https://www.elearning-total.com/campus/grade/report/grader/index.php?id=4455",
-    "exams": "https://www.elearning-total.com/campus/grade/edit/tree/index.php?id=4455",
+    "moodle": "https://www.elearning-total.com/campus/course/view.php?id=4813",
+    "consultations": "https://www.elearning-total.com/campus/mod/forum/view.php?id=468068",
+    "grades": "https://www.elearning-total.com/campus/grade/report/grader/index.php?id=4669",
+    "exams": "https://www.elearning-total.com/campus/grade/edit/tree/index.php?id=4669",
     "authorizations": "https://www.elearning-total.com/campus/mod/assign/view.php?id=450618"
   }
   ,
 
   {
     "name": "Python",
-    "id": 4690,
+    "id": 4893, 
     "start": "16/5",
     "end": "16/6",
     "status": "en curso",
-    "moodle": "https://www.elearning-total.com/campus/course/view.php?id=4690",
-    "consultations": "https://www.elearning-total.com/campus/mod/forum/view.php?id=469540",
-    "grades": "https://www.elearning-total.com/campus/grade/report/grader/index.php?id=4690",
-    "exams": "https://www.elearning-total.com/campus/grade/edit/tree/index.php?id=4690",
+    "moodle": "https://www.elearning-total.com/campus/course/view.php?id=4893",
+    "consultations": "https://www.elearning-total.com/campus/mod/forum/view.php?id=487753",
+    "grades": "https://www.elearning-total.com/campus/grade/report/grader/index.php?id=4809",
+    "exams": "https://www.elearning-total.com/campus/grade/edit/tree/index.php?id=4809",
     "authorizations": ""
   }
   ,
 
   {
     "name": "scratch docentes",
+    "id": 4912 ,
+    "start": "28/5",
+    "end": "29/6",
+    "status": "en curso",
+    "moodle": "https://www.elearning-total.com/campus/course/view.php?id=4912",
+    "consultations": "https://www.elearning-total.com/campus/mod/forum/view.php?id=472273",
+    "grades": "https://www.elearning-total.com/campus/grade/report/grader/index.php?id=4722",
+    "exams": "https://www.elearning-total.com/campus/grade/edit/tree/index.php?id=4722",
+    "authorizations": ""
+  } ,
+  
+  {
+    "name": "robotica OLD",
+    "id": 4708 ,
+    "start": "14/4",
+    "end": "14/6",
+    "status": "en curso",
+    "moodle": "https://www.elearning-total.com/campus/course/view.php?id=4708",
+    "consultations": "https://www.elearning-total.com/campus/mod/forum/view.php?id=470819",
+    "grades": "https://www.elearning-total.com/campus/grade/report/grader/index.php?id=4567",
+    "exams": "https://www.elearning-total.com/campus/grade/edit/tree/index.php?id=4567",
+    "authorizations": ""
+  }
+  ,
+  {
+    "name": "KIDS OLD",
+    "id": 4669,  
+    "start": "31/3",
+    "end": "07/06",
+    "status": "en curso",
+    "moodle": "https://www.elearning-total.com/campus/course/view.php?id=4669",
+    "consultations": "https://www.elearning-total.com/campus/mod/forum/view.php?id=468068",
+    "grades": "https://www.elearning-total.com/campus/grade/report/grader/index.php?id=4669",
+    "exams": "https://www.elearning-total.com/campus/grade/edit/tree/index.php?id=4669",
+    "authorizations": "https://www.elearning-total.com/campus/mod/assign/view.php?id=450618"
+  }
+  ,
+
+  {
+    "name": "Python OLD",
+    "id": 4809, 
+    "start": "16/5",
+    "end": "16/6",
+    "status": "en curso",
+    "moodle": "https://www.elearning-total.com/campus/mod/forum/view.php?id=478759",
+    "consultations": "https://www.elearning-total.com/campus/mod/forum/view.php?id=478759",
+    "grades": "https://www.elearning-total.com/campus/grade/report/grader/index.php?id=4809",
+    "exams": "https://www.elearning-total.com/campus/grade/edit/tree/index.php?id=4809",
+    "authorizations": ""
+  }
+  ,
+
+  {
+    "name": "scratch docentes OLD",
     "id": 4722,
     "start": "28/5",
     "end": "29/6",
@@ -50,47 +104,6 @@
     "consultations": "https://www.elearning-total.com/campus/mod/forum/view.php?id=472273",
     "grades": "https://www.elearning-total.com/campus/grade/report/grader/index.php?id=4722",
     "exams": "https://www.elearning-total.com/campus/grade/edit/tree/index.php?id=4722",
-    "authorizations": ""
-  }
-  ,
-
-  {
-    "name": "KIDS",
-    "id": 4669,
-    "start": "31/3",
-    "end": "07/06",
-    "status": "en curso",
-    "moodle": "https://www.elearning-total.com/campus/course/view.php?id=4669",
-    "consultations": "https://www.elearning-total.com/campus/mod/forum/view.php?id=468068",
-    "grades": "https://www.elearning-total.com/campus/grade/report/grader/index.php?id=4669",
-    "exams": "https://www.elearning-total.com/campus/grade/edit/tree/index.php?id=4669",
-    "authorizations": "https://www.elearning-total.com/campus/mod/assign/view.php?id=468075"
-  }
-  ,
-
-  {
-    "name": "scratch docentes",
-    "id": 4615,
-    "start": "15/4",
-    "end": "16/5",
-    "status": "en curso",
-    "moodle": "https://www.elearning-total.com/campus/course/view.php?id=4615",
-    "consultations": "https://www.elearning-total.com/campus/mod/forum/view.php?id=463767",
-    "grades": "https://www.elearning-total.com/campus/grade/report/grader/index.php?id=4615",
-    "exams": "https://www.elearning-total.com/campus/grade/edit/tree/index.php?id=4615",
-    "authorizations": ""
-  }
-  ,
-  {
-    "name": "Python",
-    "id": 4583,
-    "start": "28/3",
-    "end": "28/4",
-    "status": "en curso",
-    "moodle": "https://www.elearning-total.com/campus/course/view.php?id=4583",
-    "consultations": "https://www.elearning-total.com/campus/mod/forum/view.php?id=460961",
-    "grades": "https://www.elearning-total.com/campus/grade/edit/tree/index.php?id=4583",
-    "exams": "https://www.elearning-total.com/campus/grade/report/grader/index.php?id=4583",
     "authorizations": ""
   }
 
