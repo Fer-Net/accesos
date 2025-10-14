@@ -28,13 +28,13 @@
 
   {
     "name": "Python",
-    "id": 4893, 
+    "id": 5003, 
     "start": "16/5",
     "end": "16/6",
     "status": "en curso",
-    "moodle": "https://www.elearning-total.com/campus/course/view.php?id=4893",
+    "moodle": "https://www.elearning-total.com/campus/course/view.php?id=5003",
     "consultations": "https://www.elearning-total.com/campus/mod/forum/view.php?id=486473",
-    "grades": "https://www.elearning-total.com/campus/grade/report/grader/index.php?id=4809",
+    "grades": "https://www.elearning-total.com/campus/mod/forum/view.php?id=494929",
     "exams": "https://www.elearning-total.com/campus/grade/edit/tree/index.php?id=4809",
     "authorizations": ""
   }
@@ -42,13 +42,13 @@
 
   {
     "name": "scratch docentes",
-    "id": 4912 ,
+    "id": 4980 ,
     "start": "28/5",
     "end": "29/6",
     "status": "en curso",
-    "moodle": "https://www.elearning-total.com/campus/course/view.php?id=4912",
+    "moodle": "https://www.elearning-total.com/campus/course/view.php?id=4980",
     "consultations": "https://www.elearning-total.com/campus/mod/forum/view.php?id=487753",
-    "grades": "https://www.elearning-total.com/campus/grade/report/grader/index.php?id=4722",
+    "grades": "https://www.elearning-total.com/campus/mod/forum/view.php?id=493026",
     "exams": "https://www.elearning-total.com/campus/grade/edit/tree/index.php?id=4722",
     "authorizations": ""
   } ,
